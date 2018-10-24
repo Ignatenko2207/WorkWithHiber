@@ -47,6 +47,13 @@
             <version>${h2.driver.version}</version>
         </dependency>
 
+        <!--POSTGRESQL JDBC DRIVER-->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.5</version>
+        </dependency>
+
         <!--MY_SQL JDBC DRIVER-->
         <dependency>
             <groupId>mysql</groupId>
