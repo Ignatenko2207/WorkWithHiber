@@ -34,7 +34,7 @@
         <!--<property name="connection.password">248842</property>-->
 
         <!-- JDBC connection pool (use the built-in) -->
-        <property name="connection.pool_size">10</property>
+        <property name="connection.pool_size">100</property>
 
         <!-- Disable the second-level cache  -->
         <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>

@@ -19,6 +19,7 @@
         <lombok.version>1.18.2</lombok.version>
         <mysql.driver.version>8.0.13</mysql.driver.version>
         <h2.driver.version>1.4.197</h2.driver.version>
+        <postgresql.driver.version>42.2.5</postgresql.driver.version>
     </properties>
 
     <dependencies>
@@ -51,7 +52,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.5</version>
+            <version>${postgresql.driver.version}</version>
         </dependency>
 
         <!--MY_SQL JDBC DRIVER-->
