@@ -15,7 +15,7 @@ import javax.persistence.Table;
 public class User {
 
     @Id
-    @Column(name = "login")
+    @Column(name = "login", length = 100)
     private String login;
 
     @Column(name = "user_pass")
@@ -24,7 +24,7 @@ public class User {
     @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = false)
     private String lastName;
 
 }

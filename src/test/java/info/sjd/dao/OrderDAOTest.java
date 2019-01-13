@@ -45,13 +45,13 @@ public class OrderDAOTest {
         OrderDAO.saveOrUpdate(order);
     }
 
-    @After
-    public void tearDown() {
-        OrderDAO.delete(order);
-        CartDAO.delete(cart);
-        GoodDAO.delete(good);
-        UserDAO.delete(user);
-    }
+//    @After
+//    public void tearDown() {
+//        OrderDAO.delete(order);
+//        CartDAO.delete(cart);
+//        GoodDAO.delete(good);
+//        UserDAO.delete(user);
+//    }
 
     @Test
     public void saveAndGet() {
